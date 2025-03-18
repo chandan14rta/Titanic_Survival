@@ -1,7 +1,7 @@
 #import Libraries
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
 import warnings
 
@@ -26,7 +26,7 @@ train_x=train[['Pclass','Sex','Age','SibSp','Parch','Fare','Embarked']]
 train_y=train['Survived']
 
 #create random forest model with 100 estimators and fit with x and y
-model=RandomForestClassifier(n_estimators=100, random_state=42)
+model=LogisticRegression(max_iter=1000)
 model.fit(train_x,train_y)
 
 #similar to train
