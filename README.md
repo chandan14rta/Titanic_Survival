@@ -56,16 +56,16 @@ Replace code.py with the actual name of your Python file if it's different.
 # Code Overview
 The code performs the following steps:
 
-## 1. Importing Libraries: ### Loads necessary Python libraries.
-## 2. Data Loading and Cleaning: ### Reads the CSV file, fills missing values (for Age), and drops remaining missing values.
-## 3. Feature Engineering: ### Converts categorical variables such as Sex and Embarked into dummy variables.
-## 4. Data Visualization:
-### Distribution of Survivors: #### Uses a count plot.
-### Age Distribution by Survival Status: #### Uses a histogram with KDE.
-### Feature Correlation: #### Uses a heatmap.
-## 5. Model Training: ### Splits the dataset into training and testing sets, fits a logistic regression model.
-## 6. Model Evaluation:
-### Displays the model accuracy.
-### Plots a confusion matrix.
-### Generates an ROC curve.
-### Prints a classification report.
+**1. Importing Libraries:** Loads necessary Python libraries.
+**2. Data Loading and Cleaning:** Reads the CSV file, fills missing values (for Age), and drops remaining missing values.
+**3. Feature Engineering:** Converts categorical variables such as Sex and Embarked into dummy variables.
+**4. Data Visualization:**
+ **-** Distribution of Survivors: #### Uses a count plot.
+ **-** Age Distribution by Survival Status: #### Uses a histogram with KDE.
+ **-** Feature Correlation: #### Uses a heatmap.
+**5. Model Training:** Splits the dataset into training and testing sets, fits a logistic regression model.
+**6. Model Evaluation:**
+ **-** Displays the model accuracy.
+ **-** Plots a confusion matrix.
+ **-** Generates an ROC curve.
+ **-** Prints a classification report.
